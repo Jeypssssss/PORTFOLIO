@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('J3dYCiCon3ZoGKv3E')
+</script>
+</head>
+<body>
+    <section class="page" id="home">
+<div class="header">
+    <a href="#home"><button class="glow">Home</button></a>
+   <a href="#contact"> <button class="glow" id="contact1">Contact</button></a>
+</div>
+
+<div class="container0" id="home">
+    <div class="content">
+        <p style="color: solid #ffffff;">Hi there, I'm <br> J-PEE G. DURANA <br> 3rd year I.T student</p>
+        <a href="cv/cv.pdf" download="cv.pdf">
+			<button onclick="downloadCV()" class="cv">Download CV</button>
+			</a>
+    </div>
+    <div class="image">
+        <img src="img1.png" alt="Image">
+    </div>
+</div>
+</section>
+<section class="skills" id="skills"><div class="container">
+	
+	
+
+	<div class="main-title">
+		<h1>My Skills</h1>
+		
+	</div>
+
+	
+
+	<div class="row">
+		
+	
+
+		<section class="col">
+			
+			<div class="sub-title">
+				<h2>Programming Skills</h2>
+			</div>
+
+			<div class="skills-container">
+				
+				<div class="skill">
+					<div class="subject">HTML</div>
+					<div class="progress-bar" value="74%">
+						<div class="progress-line" style="max-width: 74%"></div>
+					</div>
+				</div>
+
+				<div class="skill">
+					<div class="subject">CSS</div>
+					<div class="progress-bar" value="69%">
+						<div class="progress-line" style="max-width: 69%"></div>
+					</div>
+				</div>
+
+                <div class="skill">
+					<div class="subject">JavaScript</div>
+					<div class="progress-bar" value="30%">
+						<div class="progress-line" style="max-width: 30%"></div>
+					</div>
+				</div>
+
+				<div class="skill">
+					<div class="subject">Php</div>
+					<div class="progress-bar" value="50%">
+						<div class="progress-line" style="max-width: 50%"></div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		
+
+	
+
+		<section class="col">
+			
+			<div class="sub-title">
+				<h2>Professional Skills</h2>
+			</div>
+
+			<div class="skills-container">
+				
+				<div class="skill">
+					<div class="subject">Communication</div>
+					<div class="progress-bar" value="82%">
+						<div class="progress-line" style="max-width: 82%"></div>
+					</div>
+				</div>
+
+				<div class="skill">
+					<div class="subject">Leadership</div>
+					<div class="progress-bar" value="74%">
+						<div class="progress-line" style="max-width: 74%"></div>
+					</div>
+				</div>
+
+                <div class="skill">
+					<div class="subject">Creativity</div>
+					<div class="progress-bar" value="63%">
+						<div class="progress-line" style="max-width: 63%"></div>
+					</div>
+				</div>
+
+				<div class="skill">
+					<div class="subject">Time Management</div>
+					<div class="progress-bar" value="91%">
+						<div class="progress-line" style="max-width: 91%"></div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		
+	</div>
+</section>
+<section class="contact-section" id="contact">
+    <h2>Contact Me</h2>
+    <p>If you have any questions or want to work together, feel free to reach out via the form below.</p>
+
+    <form id="contact-form" class="contact-form">
+		<div class="field">
+		  <label for="subject">Subject</label>
+		  <input type="text" name="subject" id="subject" placeholder="Your Subject" required>
+		</div>
+		<div class="field">
+		  <label for="from_name">Name</label>
+		  <input type="text" name="from_name" id="from_name" placeholder="Your Name" required>
+		</div>
+		<div class="field">
+		  <label for="message">message</label>
+		  <textarea type="text" name="message" id="message" rows="5" placeholder="Your Message" required> </textarea>
+		</div>
+		<input type="submit" id="button" value="Send Email" >
+	  </form>
+
+    <div class="social-links">
+      <p>Follow me on social media:</p>
+	  <div class="social-icons">
+		<a href="https://www.facebook.com/jpeegerilladurana?mibextid=ZbWKwL" target="_blank" class="social-icon">
+		  <i class="fab fa-facebook-f"></i>
+		</a>
+		<a href="https://x.com/JpeeG89757?s=09" target="_blank" class="social-icon">
+		  <i class="fab fa-twitter"></i>
+		</a>
+		<a href="https://www.instagram.com/http.japeee/profilecard/?igsh=amViYWd6ZHRoNjlo" target="_blank" class="social-icon">
+		  <i class="fab fa-instagram"></i>
+		</a>
+		</a>
+	  </div>
+      </div>
+  </section>
+<script src="script.js" defer></script>
+</body>
+</html>
